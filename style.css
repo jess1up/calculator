@@ -44,3 +44,12 @@ button:hover{
 button:active{
     background-color:hsl(0, 0%, 50%);
 }
+.operator-btn{
+    background-color:hsl(204, 71%, 45%);
+}
+.operator-btn:hover{
+    background-color:hsl(204, 71%, 50%);
+}
+.operator-btn:active{
+    background-color:hsl(204, 71%, 60%);
+}
