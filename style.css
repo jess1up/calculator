@@ -23,7 +23,9 @@ body{
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
-    color: white;
+    /*color: white;*/
+    color: #39FF14;
+    text-shadow: 0 0 5px #39FF14;
 }
 #keys{
     display: grid;
