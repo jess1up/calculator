@@ -49,10 +49,12 @@ button:active{
     background-color:hsl(0, 0%, 50%);
 }
 .operator-btn{
-    background-color:hsl(204, 71%, 45%);
-}
+    /*background-color:hsl(204, 71%, 45%);*/
+    background-color: #2E8B57; /* SeaGreen */
+}    
 .operator-btn:hover{
-    background-color:hsl(204, 71%, 50%);
+    /*background-color:hsl(204, 71%, 50%);*/
+    background-color: #3CB371; /* MediumSeaGreen */
 }
 .operator-btn:active{
     background-color:hsl(204, 71%, 60%);
