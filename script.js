@@ -25,3 +25,10 @@ function percent() {
         display.value = "error";
     }
 }
+function toggleSign() {
+    if (display.value.startsWith('-')) {
+        display.value = display.value.slice(1);
+    } else if (display.value !== '' && display.value !== '0') {
+        display.value = '-' + display.value;
+    }
+}
