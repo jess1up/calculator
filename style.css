@@ -71,3 +71,6 @@ button:active{
 .light-gray:active {
     background-color: hsl(0, 0%, 50%);
 }
+.logo img {
+    max-height: 79px;
+}
