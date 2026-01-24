@@ -18,3 +18,10 @@ function backspace() {
     display.value = display.value.slice(0, -1);
     if (display.value === "") display.value = "0";
 }
+function percent() {
+    try {
+        display.value = eval(display.value) / 100;
+    } catch {
+        display.value = "error";
+    }
+}
