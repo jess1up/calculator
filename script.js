@@ -14,3 +14,7 @@ function calculate(){
         display.value = "error";
     }
 }
+function backspace() {
+    display.value = display.value.slice(0, -1);
+    if (display.value === "") display.value = "0";
+}
